@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
+  --primary-color: rgb(3, 4, 87);
   --primary-color-darker: rgb(9, 48, 56);
 }
 
@@ -24,18 +24,22 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
 form input, form label, form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+
 }
 
 form input {
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
+  overflow-wrap: anywhere;
 }
 
 form input:focus {
@@ -51,8 +55,42 @@ form button {
   height: 50px;
   cursor: pointer;
   margin-top: 30px;
+
+
 }
 
 form button:hover {
   background: var(--primary-color-darker);
+
+}
+
+.btn-tarefa{
+  background-color: #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.input-tarefa{
+  border-width: 5px;
+  border-color: #008CBA;
+  padding: 10px 32px;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+
+.apagar{
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
 }
